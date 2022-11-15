@@ -1,5 +1,6 @@
 a=[]
 f=-1
+#Значения 
 count = int(input())
 while count!=0:
     a.append(count)
