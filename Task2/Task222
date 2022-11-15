@@ -1,0 +1,8 @@
+word_list=[input()]
+while True:
+    word_list1=input()
+    if not word_list1:
+        break
+    elif word_list1 not in word_list:
+        word_list.append(word_list1)
+print(*word_list,end=' ')

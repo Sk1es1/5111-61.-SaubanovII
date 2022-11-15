@@ -1,0 +1,15 @@
+a=[]
+f=-1
+#Значения 
+count = int(input())
+while count!=0:
+    a.append(count)
+    count = int(input())
+b=(min(a),max(a))
+print("Минимальное и максимальное значение",b)
+b=a[0:len(a):2]
+a.sort() 
+print(f'{a}')
+print(b)
+amount=len(a)
+print("Количество элементов в списке:",amount)
